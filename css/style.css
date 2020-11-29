@@ -1,0 +1,192 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(../images/background_1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 749.5px;
+  width: 100%;
+}
+.div {
+  height: 10px;
+  background: radial-gradient(at top, #feffff, #a7cecc);
+}
+.navigation {
+  background-color: white;
+  height: 50px;
+  opacity: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.h-heading {
+  color: white;
+  text-align: center;
+}
+.h-content {
+  background-color: white;
+  border-radius: 5%;
+  opacity: 80%;
+  margin: auto;
+  height: 500px;
+  width: 900px;
+}
+/* Header */
+.place {
+  background-image: url(../images/background_2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 749.5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-heading {
+  text-align: center;
+}
+.p-content {
+  font-size: 20px;
+  max-width: 1200px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+/* Place */
+
+.i-heading {
+  text-align: center;
+}
+.i-table {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.petroglyph {
+  height: 250px;
+  width: 300px;
+  margin: auto;
+}
+/* Interpretation */
+.route {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.l-heading {
+  text-align: center;
+}
+
+/* APPLICATION */
+.m-heading {
+  text-align: center;
+}
+.map {
+  position: relative;
+  background-image: url(../images/route.PNG);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 50%;
+  margin: auto;
+}
+.mark {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+.mark:hover {
+  cursor: pointer;
+}
+label {
+  display: inline-block;
+  color: white;
+  width: 200px;
+}
+.karasai {
+  top: 180px;
+  left: 465px;
+}
+.kamysai {
+  top: 100px;
+  left: 360px;
+}
+.botamoinak {
+  top: 260px;
+  left: 540px;
+}
+.tower_1 {
+  top: 140px;
+  left: 470px;
+}
+.tower_2 {
+  top: 200px;
+  left: 550px;
+}
+.krs {
+  background-image: url(../images/krs.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.krm {
+  background-image: url(../images/kms.JPG);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.btm {
+  background-image: url(../images/btm.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.t_1 {
+  background-image: url(../images/tower_1.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.t_2 {
+  background-image: url(../images/tower_2.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.wrapper{
+  position: absolute;
+  height: 500px;
+  width: 50%;
+  top: 80px;
+  left: 385px;
+}
+.window {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+.close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.close:hover{
+  cursor: pointer;
+}
